@@ -1,0 +1,24 @@
+# 用于训练/预测的网络描述文件（protobuffer 文本格式）
+net: "examples/mnist/lenet_train_test.prototxt"
+# 预测阶段迭代次数。在MNIST例程下，预测样本组（test batch）大小为100，
+# 这里设置预测阶段迭代次数为100可以覆盖全部10000张测试集
+test_iter: 100
+# 训练时每迭代500次，进行一次预测
+test_interval: 500
+# 网络的基础学习速率、冲量和权衰量
+base_lr: 0.01
+momentum: 0.9
+weight_decay: 0.0005
+# 学习速率的衰减策略
+lr_policy: "inv"
+gamma: 0.0001
+power: 0.75
+# 每经过100次迭代，在屏幕上打印一次运行LOG
+display: 100
+# 最大迭代次数
+max_iter: 10000
+# 每5000次迭代打一次快照
+snapshot: 5000
+snapshot_prefix: "examples/mnist/lenet"
+# Caffe 求解模式为CPU模式。有条件（见第15天）可以改为GPU模式。
+solver_mode: CPU

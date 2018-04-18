@@ -1,0 +1,62 @@
+	    SUMMARY OF THE HDF5 CONFIGURATION
+	    =================================
+
+General Information:
+-------------------
+		   HDF5 Version: 1.8.9
+		  Configured on: Wed Aug 10 02:50:22 EDT 2016
+		  Configured by: lab@kickseed
+		 Configure mode: production
+		    Host system: x86_64-unknown-linux-gnu
+	      Uname information: Linux kickseed 3.13.0-83-generic #127-Ubuntu SMP Fri Mar 11 00:25:37 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux
+		       Byte sex: little-endian
+		      Libraries: 
+	     Installation point: /home/lab/deeplearning/local_install
+
+Compiling Options:
+------------------
+               Compilation Mode: production
+                     C Compiler: /usr/bin/gcc
+                         CFLAGS: 
+                      H5_CFLAGS: -std=c99 -pedantic -Wall -Wextra -Wundef -Wshadow -Wpointer-arith -Wbad-function-cast -Wcast-qual -Wcast-align -Wwrite-strings -Wconversion -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -Wnested-externs -Winline -Wfloat-equal -Wmissing-format-attribute -Wmissing-noreturn -Wpacked -Wdisabled-optimization -Wformat=2 -Wendif-labels -Wdeclaration-after-statement -Wold-style-definition -Winvalid-pch -Wvariadic-macros -Winit-self -Wmissing-include-dirs -Wswitch-default -Wswitch-enum -Wunused-macros -Wunsafe-loop-optimizations -Wc++-compat -Wstrict-overflow -Wlogical-op -Wlarger-than=2048 -Wvla -Wsync-nand -Wframe-larger-than=16384 -Wpacked-bitfield-compat -Wstrict-overflow=5 -Wjump-misses-init -Wunsuffixed-float-constants -Wdouble-promotion -Wsuggest-attribute=const -Wtrampolines -Wstack-usage=8192 -Wvector-operation-performance -O3 -fomit-frame-pointer -finline-functions
+                      AM_CFLAGS: 
+                       CPPFLAGS: 
+                    H5_CPPFLAGS: -D_POSIX_C_SOURCE=199506L   -DNDEBUG -UH5_DEBUG_API
+                    AM_CPPFLAGS: -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_BSD_SOURCE 
+               Shared C Library: yes
+               Static C Library: yes
+  Statically Linked Executables: no
+                        LDFLAGS: 
+                     H5_LDFLAGS: 
+                     AM_LDFLAGS: 
+ 	 	Extra libraries:  -lm 
+ 		       Archiver: ar
+ 		 	 Ranlib: ranlib
+ 	      Debugged Packages: 
+		    API Tracing: no
+
+Languages:
+----------
+                        Fortran: no
+
+                            C++: no
+
+Features:
+---------
+                  Parallel HDF5: no
+             High Level library: yes
+                   Threadsafety: no
+            Default API Mapping: v18
+ With Deprecated Public Symbols: yes
+         I/O filters (external): 
+         I/O filters (internal): shuffle,fletcher32,nbit,scaleoffset
+                            MPE: no
+                     Direct VFD: no
+                        dmalloc: no
+Clear file buffers before write: yes
+           Using memory checker: no
+         Function Stack Tracing: no
+                           GPFS: no
+      Strict File Format Checks: no
+   Optimization Instrumentation: no
+       Large File Support (LFS): yes

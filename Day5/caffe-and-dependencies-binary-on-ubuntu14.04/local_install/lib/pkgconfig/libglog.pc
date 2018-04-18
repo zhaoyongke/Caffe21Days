@@ -1,0 +1,10 @@
+prefix=/home/lab/deeplearning/local_install
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libglog
+Description: Google Log (glog) C++ logging framework
+Version: 0.3.3
+Libs: -L${libdir} -lglog
+Cflags: -I${includedir}
